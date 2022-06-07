@@ -1,0 +1,14 @@
+@import "../scss2/mixins";
+@import "../scss2/variables";
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $fuente1;
+}
+
+
+.redes-soc{
+    color: $color-blanco;
+}

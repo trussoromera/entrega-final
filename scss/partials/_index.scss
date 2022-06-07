@@ -1,0 +1,46 @@
+@import "../scss2/variables";
+@import "../scss2/mixins";
+
+
+
+.div-titulo-section{
+    margin-top: 4px;
+    @include flexbox (column, center, center, nowrap);
+    h1{
+        @include textos ($color-blanco, $font1, 6vw, bold, center);
+        white-space: pre-wrap;
+        }
+}
+body{
+    background-color: rgb(153, 126, 126);
+}
+
+
+
+.pago-envio i{
+    font-size: 90px;
+    color: beige;
+}
+
+.pago-envio p{
+    padding-top: 2rem;
+}
+.pago-envio{
+    margin: auto;
+    padding-top: 8rem;
+    height: 22rem;
+    width: 22rem;
+    color: beige;
+    text-align: center;
+    
+
+}
+.footer-config{
+    background-color: rgb(24, 23, 23);
+    color: rgb(158, 11, 11);
+    padding: 1rem;
+    
+}
+
+
+

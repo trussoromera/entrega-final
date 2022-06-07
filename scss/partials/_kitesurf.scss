@@ -1,0 +1,39 @@
+@import "../scss2/mixins";
+@import "../scss2/variables";
+
+
+
+
+.prod-kite1{
+    @include caja-prod;
+
+    margin: 5rem 0rem;
+    
+    text-align: center
+    
+
+}
+
+
+.prod-kite2{
+    @include caja-prod;
+}
+
+.prod-kite3{
+    @include caja-prod;
+
+}
+.prod-kite4{
+    @include caja-prod;
+
+}
+
+.prod-kite5{
+    @include caja-prod;
+
+}
+.prod-kite6{
+    @include caja-prod;
+
+}
+

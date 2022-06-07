@@ -1,0 +1,31 @@
+@mixin flexbox ($direction, $justificado, $alineado-items, $wrap){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justificado;
+    align-items: $alineado-items;
+    flex-wrap: $wrap;
+}
+
+
+
+
+@mixin textos ($color, $family, $size, $weight, $align){
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    text-align: $align;
+}
+
+
+@mixin caja-prod {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    background-color: aqua;
+    
+    
+
+ 
+}
+
