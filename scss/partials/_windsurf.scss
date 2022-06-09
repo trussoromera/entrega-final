@@ -1,35 +1,27 @@
 @import "../scss2/mixins";
 @import "../scss2/variables";
 
-
-.boton {
-    background-color: green;
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
+.prod-wind1{
+    @include caja-prod
 }
 
-
-.contenedor {
-    width: 95%;
-    max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-.boton:hover {
-    background-color: rgb(25, 221, 25);
-    transition: .3s ease-in-out;
+.prod-wind2{
+    @include caja-prod
 }
 
-.text-center {
-    text-align: center;
+.prod-wind3{
+    @include caja-prod
 }
 
-.hijo {
-
-    padding: 3rem;
+.prod-wind4{
+    @include caja-prod
 }
 
+.prod-wind5{
+    @include caja-prod
+}
+
+.prod-wind6{
+    @include caja-prod
+}
 

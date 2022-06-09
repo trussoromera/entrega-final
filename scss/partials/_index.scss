@@ -3,16 +3,9 @@
 
 
 
-.div-titulo-section{
-    margin-top: 4px;
-    @include flexbox (column, center, center, nowrap);
-    h1{
-        @include textos ($color-blanco, $font1, 6vw, bold, center);
-        white-space: pre-wrap;
-        }
-}
+
 body{
-    background-color: rgb(153, 126, 126);
+    background-color: rgb(175, 167, 167);
 }
 
 
@@ -37,9 +30,23 @@ body{
 }
 .footer-config{
     background-color: rgb(24, 23, 23);
-    color: rgb(158, 11, 11);
-    padding: 1rem;
+    padding: 2rem;
     
+
+    
+}
+
+.redes-soc a{
+    color: $color-blanco;
+    
+}
+
+.fondo{
+    background-color: rgba(128, 76, 9, 0.719);
+}
+
+.video-config{
+    margin-bottom: 1rem;
 }
 
 
