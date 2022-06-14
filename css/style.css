@@ -3,6 +3,16 @@
   background-color: rgba(216, 112, 147, 0.822);
   color: white; }
 
+@media (min-width: 768px) {
+  .grid-padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 1360px) {
+  .grid-padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
+
 body {
   background-color: #afa7a7; }
 
